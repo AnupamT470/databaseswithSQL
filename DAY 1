@@ -16,7 +16,7 @@ Querying:
 
 Visual studio code, SQLite
 
-
+******************************************************
 SELECT
 to select the whole table use SELECT * FROM TABLE NAME
 to select coloumnd use SELECT "COLOUMN NAME" FROM TABLE NAME
@@ -34,13 +34,19 @@ SELECT * FROM users;
 
 SELECT "NAME" FROM users;
 
-
+*********************
 
 LIMIT
 Limits the number of rows I get back from my query.
 
 SELECT "title" FROM "booker_winners" LIMIT 10;
 
+***************************
+
+WHERE (condition)
+SELECT "title", "author" FROM "booker_winners" WHERE "year"=2000;
+
+*******************
 
 
 
