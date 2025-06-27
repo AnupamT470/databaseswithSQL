@@ -1,4 +1,4 @@
-Querying
+
 
 Table stores information
 Every row stores one item in that set
@@ -12,3 +12,51 @@ databse managemnt system: to interact with data
 eg: mySQL, Oracle, PostgreSQL, SQLite
 
 SQL (STRUCTURED QUERY LANGUAGE): A LANGUAGE VIA WHICH YOU CAN CREATE, READ, UPDATE AND DELETE DATA IN A DATABSE
+Querying: 
+
+Visual studio code, SQLite
+
+
+SELECT
+to select the whole table use SELECT * FROM TABLE NAME
+to select coloumnd use SELECT "COLOUMN NAME" FROM TABLE NAME
+
+example:
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER
+);
+
+INSERT INTO users (name, age) VALUES ('Alice', 30), ('Bob', 25);
+
+SELECT * FROM users;
+
+SELECT "NAME" FROM users;
+
+
+
+LIMIT
+Limits the number of rows I get back from my query.
+
+SELECT "title" FROM "booker_winners" LIMIT 10;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
