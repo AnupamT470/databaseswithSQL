@@ -1,0 +1,14 @@
+Querying
+
+Table stores information
+Every row stores one item in that set
+every coloumn has some piece of information about that item
+database serves large scale of data
+we can update the data multiple times
+easier and faster to look up information in a huge data set
+
+database: a collection of data organzed for creating, reading, updating and deleting
+databse managemnt system: to interact with data
+eg: mySQL, Oracle, PostgreSQL, SQLite
+
+SQL (STRUCTURED QUERY LANGUAGE): A LANGUAGE VIA WHICH YOU CAN CREATE, READ, UPDATE AND DELETE DATA IN A DATABSE
