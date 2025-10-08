@@ -1,0 +1,44 @@
+// Aggregate
+Aggregate functions are used to perform calculations and return a single value.
+
+The most common aggregate functions are:
+
+COUNT(): returns the number of rows.
+MAX(): returns the largest value in a column.
+MIN(): returns the smallest value in a column.
+SUM(): returns the total sum in a column.
+AVG(): returns the average value in a column.
+
+// # COUNT()
+The first aggregate function we will learn is the COUNT() function. It's exactly how it sounds!
+
+The COUNT() function counts the number of rows:
+
+SELECT COUNT(*)
+FROM table_name;
+
+// min and max
+MIN() and MAX() are exactly how they sound: they return the minimum and maximum value in a column, respectively.
+
+For example, this returns the smallest value in the plays column:
+
+SELECT MIN(plays)
+FROM playlist;
+.
+
+This finds the most popular song in the table:
+
+SELECT title, artist, MAX(plays)
+FROM playlist;
+
+
+// sum
+
+SELECT SUM(plays)
+FROM playlist;
+
+
+
+//GROUP BY
+The GROUP BY statement groups rows of data with the same values into buckets. It’s often used with aggregate functions to group the result by one or more columns.
+
